@@ -10,8 +10,8 @@
   transition: 150ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-  /* height: 20rem;
-  width: 20rem; */
+  height: 20rem;
+  width: 20rem; 
 }
 
 .card:hover {
@@ -33,6 +33,7 @@
   backface-visibility: hidden;
   width: 100%;
   display: flex;
+  left: 0;
   flex-direction: column;
 }
 

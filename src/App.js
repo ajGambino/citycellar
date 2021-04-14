@@ -11,7 +11,7 @@ function App() {
     <FlashcardList flashcards={flashcards} />
   );
 }
-
+ 
 const menu = [
   {
       id: 1,
